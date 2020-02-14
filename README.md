@@ -12,7 +12,7 @@ User Interface of the Bidao Stablecoin System.
 
 ## What is Bidao?
 
-The BiDao Cryptocurrency (BID) utilizes a completely decentralized proof-of-stake Blockchain with an additional collateral backed value token which is 100% stable in value quite in contrast to forexample Bitcoin, Binance Coin or Ethereum which experiencehuge fluctuation.
+The BiDao Cryptocurrency (BID) utilizes a completely decentralized proof-of-stake Blockchain with an additional collateral backed value token which is 100% stable in value quite in contrast to for example Bitcoin, Binance Coin or Ethereum which experience huge fluctuation.
 
 ## Links
 
