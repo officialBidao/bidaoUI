@@ -149,7 +149,6 @@ def update_crypto_histories(symbol):
     h.marketcap.append(float(c.price * c.circ_supply))
     ts = calendar.timegm(time.gmtime())
     h.date.append(ts)
-    print('here')
     h.save()
 
 def update_asset_histories(symbol):
@@ -157,8 +156,6 @@ def update_asset_histories(symbol):
     c = Asset.objects.get(symbol=symbol)
     h.price.append(float(c.price))
     price = c.price
-    if symbol == 'GOLD':
-        price = float(c.price) / 28.3495  #price per gram
     print(price)
     h.marketcap.append(price * float(c.supply))
     ts = calendar.timegm(time.gmtime())
